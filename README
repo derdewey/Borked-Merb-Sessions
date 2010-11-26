@@ -1,0 +1,4 @@
+bundle install gems
+edit config/init.rb to switch around the session code.
+
+Cookes will work. Memcache will bork!

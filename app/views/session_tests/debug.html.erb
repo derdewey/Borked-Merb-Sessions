@@ -1,0 +1,6 @@
+<h1>Debug Session</h1>
+<ul>
+<% session.keys.each do |key| %>
+  <li><%= key %>: <%= session[key]%></li>
+<% end %>
+</ul>
